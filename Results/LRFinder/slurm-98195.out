@@ -1,0 +1,21 @@
+cpu-bind=MASK - aoclsd, task  0  0 [9283]: mask 0xc00c0 set
+2023-06-12 18:14:14.709763: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaModel: ['lm_head.dense.bias', 'lm_head.decoder.weight', 'lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+-----------------------------------------------------------------------
+:333 Hello World
+-----------------------------------------------------------------------
+GPU IS AVAILABLE True
+Value counts in column 'label':
+ 0    804413
+1    792878
+2    167002
+Name: sentiment, dtype: int64
+Created w/ success
+NEW LR
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [52:05<7:48:52, 3125.79s/it] 20%|██        | 2/10 [1:43:45<6:54:42, 3110.30s/it] 30%|███       | 3/10 [2:35:23<6:02:14, 3105.00s/it] 40%|████      | 4/10 [3:27:07<5:10:26, 3104.48s/it] 50%|█████     | 5/10 [4:18:50<4:18:39, 3104.00s/it] 60%|██████    | 6/10 [5:10:35<3:26:57, 3104.33s/it] 70%|███████   | 7/10 [6:02:19<2:35:12, 3104.04s/it] 80%|████████  | 8/10 [6:54:01<1:43:26, 3103.40s/it] 90%|█████████ | 9/10 [7:45:42<51:42, 3102.62s/it]  100%|██████████| 10/10 [8:37:26<00:00, 3103.04s/it]100%|██████████| 10/10 [8:37:26<00:00, 3104.61s/it]
+Learning rate search finished. See the graph with {finder_name}.plot()
+LR suggestion: steepest gradient
+Suggested LR: 1.00E-05
