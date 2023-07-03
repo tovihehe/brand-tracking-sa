@@ -1,0 +1,56 @@
+cpu-bind=MASK - aoclsd, task  0  0 [15890]: mask 0xc00c0 set
+2023-06-16 15:55:04.536734: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaModel: ['lm_head.layer_norm.bias', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.bias', 'lm_head.layer_norm.weight', 'lm_head.decoder.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+-----------------------------------------------------------------------
+Hello World ---- ROBERTA
+-----------------------------------------------------------------------
+GPU IS AVAILABLE True
+Value counts in column 'label':
+ 0    804413
+1    792878
+2    167002
+Name: sentiment, dtype: int64
+BATCH_SIZE:  32
+EPOCHS:  3
+DROPOUT_PROB:  0.5
+LR:  2e-05
+(1587863, 2) (88215, 2) (88215, 2)
+Created w/ success
+Epoch 1/3
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Train loss: 0.4668665410713656, Train accuracy: 0.8155974413409721, Validation loss: 0.4014987154016903, Validation accuracy: 0.8459672391316669
+Epoch 2/3
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Train loss: 0.37084626514426405, Train accuracy: 0.8576420006008074, Validation loss: 0.3815687411087425, Validation accuracy: 0.8547639290370119
+Epoch 3/3
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Train loss: 0.3093999411914301, Train accuracy: 0.8820156398883279, Validation loss: 0.38626199612096035, Validation accuracy: 0.8584707816131044
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Best validation accuracy: 0.8584707816131044
+------------------------------------------------------------------------------------------------------------------------------------------------------
+All history 
+ defaultdict(<class 'list'>, {'train_acc': [0.8155974413409721, 0.8576420006008074, 0.8820156398883279], 'train_loss': [0.4668665410713656, 0.37084626514426405, 0.3093999411914301], 'val_acc': [0.8459672391316669, 0.8547639290370119, 0.8584707816131044], 'val_loss': [0.4014987154016903, 0.3815687411087425, 0.38626199612096035]})
+ROBERTA Test accuracy 0.8589468911182906
+ROBERTA CONFUSION MATRIX 
+
+              precision    recall  f1-score   support
+
+    positive       0.87      0.85      0.86     40173
+    negative       0.85      0.88      0.87     39585
+     neutral       0.84      0.80      0.82      8457
+
+    accuracy                           0.86     88215
+   macro avg       0.85      0.84      0.85     88215
+weighted avg       0.86      0.86      0.86     88215
+
+ROC CURVE 
+
+PR CURVE 
+
+---------------------------------- EXAMPLE --------------------------------------
+[1.2094881e-03 9.9856937e-01 2.2110388e-04]
+positive % : 0.0012, negative % : 0.9986, neutral % : 0.0002
+Sentiment: negative
