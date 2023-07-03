@@ -1,0 +1,76 @@
+cpu-bind=MASK - aoclsd, task  0  0 [59866]: mask 0xc00c0 set
+2023-06-11 23:23:16.116161: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+-----------------------------------------------------------------------
+Hello World
+-----------------------------------------------------------------------
+GPU IS AVAILABLE True
+Value counts in column 'label':
+ 0    804413
+1    792878
+2    167002
+Name: sentiment, dtype: int64
+Max length:  116
+Mean length:  19.78894038575225
+LENGTH:  128
+BATCH_SIZE:  16
+EPOCHS:  3
+DROPOUT_PROB:  0.5
+LR:  1e-05
+(1587863, 2) (88215, 2) (88215, 2)
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+torch.Size([16, 128]) torch.Size([16, 128]) torch.Size([16])
+Created w/ success
+Epoch 1/3
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Train loss: 0.5433838625847726, Train accuracy: 0.7763081575677498, Validation loss: 0.4659344215408146, Validation accuracy: 0.8163350904041263
+Epoch 2/3
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Train loss: 0.46519741429250716, Train accuracy: 0.8151849372395478, Validation loss: 0.4466994823796737, Validation accuracy: 0.8244289519922916
+Epoch 3/3
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Train loss: 0.44474472789371366, Train accuracy: 0.8240969151620763, Validation loss: 0.43961647434358064, Validation accuracy: 0.8285212265487729
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Best validation accuracy: 0.8285212265487729
+------------------------------------------------------------------------------------------------------------------------------------------------------
+All history 
+ defaultdict(<class 'list'>, {'train_acc': [0.7763081575677498, 0.8151849372395478, 0.8240969151620763], 'train_loss': [0.5433838625847726, 0.46519741429250716, 0.44474472789371366], 'val_acc': [0.8163350904041263, 0.8244289519922916, 0.8285212265487729], 'val_loss': [0.4659344215408146, 0.4466994823796737, 0.43961647434358064]})
+Test accuracy 0.8285098906081733
+CONFUSION MATRIX 
+
+              precision    recall  f1-score   support
+
+    positive       0.84      0.82      0.83     40173
+    negative       0.82      0.86      0.84     39585
+     neutral       0.82      0.72      0.77      8457
+
+    accuracy                           0.83     88215
+   macro avg       0.83      0.80      0.81     88215
+weighted avg       0.83      0.83      0.83     88215
+
+ROC CURVE 
+
+{'fpr': {0: array([0.        , 0.        , 0.        , ..., 0.99059157, 0.99059157,
+       1.        ]), 1: array([0.        , 0.        , 0.        , ..., 0.9732264 , 0.97326753,
+       1.        ]), 2: array([0.        , 0.        , 0.        , ..., 0.94503373, 0.94503373,
+       1.        ]), 'micro': array([0.        , 0.        , 0.        , ..., 0.96857677, 0.96858811,
+       1.        ])}, 'tpr': {0: array([0.00000000e+00, 2.48923406e-05, 7.71662559e-04, ...,
+       9.99975108e-01, 1.00000000e+00, 1.00000000e+00]), 1: array([0.00000000e+00, 2.52620942e-05, 1.28836681e-03, ...,
+       1.00000000e+00, 1.00000000e+00, 1.00000000e+00]), 2: array([0.00000000e+00, 1.18245241e-04, 3.07437626e-03, ...,
+       9.99881755e-01, 1.00000000e+00, 1.00000000e+00]), 'micro': array([0.00000000e+00, 1.13359406e-05, 2.94734456e-04, ...,
+       1.00000000e+00, 1.00000000e+00, 1.00000000e+00])}, 'roc_auc': {0: 0.9232494599278668, 1: 0.9301769751777198, 2: 0.9487181771447253, 'micro': 0.948152105275736}}
+PR CURVE 
+
+{'precision': {0: array([0.45539874, 0.4554039 , 0.45540907, ..., 1.        , 1.        ,
+       1.        ]), 1: array([0.44873321, 0.4487383 , 0.44874338, ..., 1.        , 1.        ,
+       1.        ]), 2: array([0.09586805, 0.09586914, 0.09587022, ..., 1.        , 1.        ,
+       1.        ])}, 'recall': {0: array([1.00000000e+00, 1.00000000e+00, 1.00000000e+00, ...,
+       4.97846813e-05, 2.48923406e-05, 0.00000000e+00]), 1: array([1.00000000e+00, 1.00000000e+00, 1.00000000e+00, ...,
+       5.05241885e-05, 2.52620942e-05, 0.00000000e+00]), 2: array([1.00000000e+00, 1.00000000e+00, 1.00000000e+00, ...,
+       2.36490481e-04, 1.18245241e-04, 0.00000000e+00])}, 'average_precision': {0: 0.9114409369851737, 1: 0.9138577552105398, 2: 0.8236244413971667}}
+---------------------------------- EXAMPLE --------------------------------------
+[3.3815007e-03 9.9607986e-01 5.3868437e-04]
+positive % : 0.0034, negative % : 0.9961, neutral % : 0.0005
+Sentiment: negative
