@@ -1,0 +1,46 @@
+cpu-bind=MASK - aoclsd, task  0  0 [15368]: mask 0xc00c0 set
+2023-06-06 00:23:57.712704: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[32m[I 2023-06-06 00:33:15,724][0m A new study created in memory with name: no-name-8a878e53-97d7-41d0-8ff0-e639a6a5523c[0m
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+-----------------------------------------------------------------------
+Hello World
+-----------------------------------------------------------------------
+GPU IS AVAILABLE True
+Value counts in column 'label':
+ 0    500000
+1    500000
+2    100000
+Name: sentiment, dtype: int64
+--- Max length:  112
+(990000, 2) (110000, 2)
+Created w/ success
+[32m[I 2023-06-06 12:16:53,135][0m Trial 0 finished with value: 0.40152230994122273 and parameters: {'percentage': 0.05, 'drop_out': 0.1}. Best is trial 0 with value: 0.40152230994122273.[0m
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[32m[I 2023-06-06 23:58:21,508][0m Trial 1 finished with value: 0.40084057771990245 and parameters: {'percentage': 0.05, 'drop_out': 0.5}. Best is trial 1 with value: 0.40084057771990245.[0m
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[32m[I 2023-06-07 11:40:37,704][0m Trial 2 finished with value: 0.40426193143583156 and parameters: {'percentage': 0, 'drop_out': 0.5}. Best is trial 1 with value: 0.40084057771990245.[0m
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[32m[I 2023-06-07 23:21:07,433][0m Trial 3 finished with value: 0.39569910894063387 and parameters: {'percentage': 0.1, 'drop_out': 0.5}. Best is trial 3 with value: 0.39569910894063387.[0m
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[32m[I 2023-06-08 11:02:47,265][0m Trial 4 finished with value: 0.4010903113860976 and parameters: {'percentage': 0.05, 'drop_out': 0.3}. Best is trial 3 with value: 0.39569910894063387.[0m
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[32m[I 2023-06-08 22:47:16,057][0m Trial 5 finished with value: 0.40480498148392546 and parameters: {'percentage': 0, 'drop_out': 0.3}. Best is trial 3 with value: 0.39569910894063387.[0m
+Number of finished trials:  6
+Best trial:
+  Value:  0.39569910894063387
+  Params: 
+    percentage: 0.1
+    drop_out: 0.5
