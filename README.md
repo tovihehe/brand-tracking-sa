@@ -79,25 +79,19 @@ This project demonstrated the effective use of BERT and RoBERTa for sentiment an
 
 ## References
 
-1. [Brand Sentiment Analysis](https://example.com)
-2. Google. "Attention Is All You Need." 2017.
-3. Vaswani et al. "Attention Is All You Need." 2017.
-4. Sentiment140 Dataset. [Link](http://help.sentiment140.com/for-students/)
-5. SemEval Dataset. [Link](http://www.semeval2.org/)
-6. Chawla et al. "SMOTE: Synthetic Minority Over-sampling Technique." 2002.
-7. Sennrich et al. "Improving Neural Machine Translation Models with Monolingual Data." 2016.
-8. BERT Paper. [Link](https://arxiv.org/abs/1810.04805)
-9. Devlin et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." 2018.
-10. Liu et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach." 2019.
-11. Howard et al. "Universal Language Model Fine-tuning for Text Classification." 2018.
-12. BERT Tokenization. [Link](https://huggingface.co/transformers/tokenizer_summary.html)
-13. BERT Fine-Tuning. [Link](https://github.com/google-research/bert)
-14. Optuna Documentation. [Link](https://optuna.org/)
-15. Smith et al. "Cyclical Learning Rates for Training Neural Networks." 2015.
-16. LRFinder Documentation. [Link](https://docs.fast.ai/callbacks.lrfinder.html)
-17. "Finding the Best Learning Rate: LR Finder." [Link](https://www.fast.ai/2020/04/06/lr-finder/)
-18. Leslie Smith. "Cyclical Learning Rates for Training Neural Networks." 2015.
-19. How to Fine-Tune BERT for Text Classification. [Link](https://towardsdatascience.com/how-to-fine-tune-bert-for-text-classification-2d4f82b21c46)
-20. Sklearn Metrics. [Link](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics)
-21. Twitter API Pricing. [Link](https://developer.twitter.com/en/pricing)
-22. SQLite3 Documentation. [Link](https://www.sqlite.org/docs.html)
+1. [Brand Sentiment Analysis](https://www.explorium.ai/blog/business-data/brand-sentiment-data/)
+2. Vaswani et al. "Attention Is All You Need." 2017. [Link](https://arxiv.org/abs/1706.03762) 
+3. Sentiment140 Dataset. [Link](https://www.kaggle.com/datasets/kazanova/sentiment140) 
+4. SemEval Dataset. [Link](https://www.kaggle.com/datasets/azzouza2018/semevaldatadets)
+5. Devlin et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." 2018. [Link](https://arxiv.org/abs/1810.04805)
+6. Liu et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach." 2019. [Link](https://arxiv.org/abs/1907.11692)
+7. BERT Tokenization. [Link](https://huggingface.co/transformers/tokenizer_summary.html)
+8. BERT Fine-Tuning. [Link](https://github.com/google-research/bert)
+9. Optuna Documentation. [Link](https://optuna.org/)
+10. Smith et al. "Cyclical Learning Rates for Training Neural Networks." 2015.
+11. LRFinder Documentation. [Link](https://docs.fast.ai/callbacks.lrfinder.html)
+12. Leslie Smith. "Cyclical Learning Rates for Training Neural Networks." 2015. [Link](https://arxiv.org/abs/1506.01186)
+13. Sklearn Metrics. [Link](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics)
+14. Twitter API Pricing. [Link](https://developer.twitter.com/en/pricing)
+15. SQLite3 Documentation. [Link](https://www.sqlite.org/docs.html)
+16. Streamlit Documentation. [Link](https://streamlit.io/)
