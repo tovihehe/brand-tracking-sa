@@ -67,11 +67,10 @@ Tweets were scraped using the Twitter API, with considerations for recent policy
 
 A Streamlit-based dashboard was developed to display sentiment analysis results. The interface allows users to query sentiment for specific brands, visualize trends, and interact with the data in real-time.
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/1a7d39dc-98c4-450d-a96f-5d37170b1d38" alt="Description of Image 1" width="300" style="margin-right: 10px;"/>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/1a7d39dc-98c4-450d-a96f-5d37170b1d38" alt="Description of Image 1" width="300"/>
   <img src="https://github.com/user-attachments/assets/502d463e-9879-4047-bd46-0d56d70c12bb" alt="Description of Image 2" width="300"/>
 </div>
-
 
 ## Conclusion
 
