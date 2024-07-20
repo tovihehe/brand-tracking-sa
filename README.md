@@ -69,7 +69,7 @@ A Streamlit-based dashboard was developed to display sentiment analysis results.
 
 <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
   <img src="https://github.com/user-attachments/assets/1a7d39dc-98c4-450d-a96f-5d37170b1d38" alt="Description of Image 1" width="300"/>
-  <img src="https://github.com/user-attachments/assets/502d463e-9879-4047-bd46-0d56d70c12bb" alt="Description of Image 2" width="300"/>
+  <img src="https://github.com/user-attachments/assets/502d463e-9879-4047-bd46-0d56d70c12bb" alt="Description of Image 2" width="500"/>
 </div>
 
 ## Conclusion
