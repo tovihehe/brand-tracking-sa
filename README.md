@@ -1,4 +1,4 @@
-# Brand Sentiment Analysis Using BERT and RoBERTa
+# Brand Sentiment Analysis Using BERT and RoBERTa 💖
 
 ## Abstract
 
