@@ -28,12 +28,12 @@ eval "$(conda shell.bash activate new-env)"
 #conda install -n datathon --freeze-installed pandas
 #conda list
 
-#python "/home/pfc/atoval/BertModel_threshold.py"
-#python "/home/pfc/atoval/BertModel_multiclassification.py"
-#python "/home/pfc/atoval/LSTM_multiclassification.py"
-#python "/home/pfc/atoval/roBERTa_multiclassification.py"
-#python "/home/pfc/atoval/BERT - LRFinder.py"
-#python "/home/pfc/atoval/RoBERTa - LRFinder.py"
-#python "/home/pfc/atoval/HypertuneBERT.py"
+#python "/home/pfc/tovi/BertModel_threshold.py"
+#python "/home/pfc/tovi/BertModel_multiclassification.py"
+#python "/home/pfc/tovi/LSTM_multiclassification.py"
+#python "/home/pfc/tovi/roBERTa_multiclassification.py"
+#python "/home/pfc/tovi/BERT - LRFinder.py"
+#python "/home/pfc/tovi/RoBERTa - LRFinder.py"
+#python "/home/pfc/tovi/HypertuneBERT.py"
 
-python "/home/pfc/atoval/BertModel_multiclassification.py"
+python "/home/pfc/tovi/BertModel_multiclassification.py"
