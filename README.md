@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Brand sentiment monitoring is crucial for businesses to understand customer perceptions. Real-time analysis of social media data presents challenges, but advanced transformer-based deep learning models offer robust solutions. This project focuses on fine-tuning two prominent transformer models, BERT and RoBERTa, to achieve state-of-the-art sentiment analysis results. A user-friendly interface developed with Streamlit will showcase sentiment analysis outcomes, enabling companies to gauge public sentiment towards their products and services effectively.
+Brand sentiment monitoring is crucial for businesses to understand customer perceptions. Real-time analysis of social media data presents challenges, but advanced transformer-based models offer robust solutions. This project focuses on fine-tuning two prominent transformer models, BERT and RoBERTa, to achieve state-of-the-art sentiment analysis results. A user-friendly interface developed with Streamlit will showcase sentiment analysis outcomes, enabling companies to gauge public sentiment towards their products and services effectively.
 
 ## Introduction
 
